@@ -20,11 +20,7 @@ function repeater(str, { repeatTimes = 1,
   addition = '',
   additionRepeatTimes = 1,
   additionSeparator = '|'}) {
- /*const { repeatTimes = 1,
-  separator = '+',
-  addition = '',
-  additionRepeatTimes = 1,
-  additionSeparator = '|'} = options;*/
+
   
   str = String(str);
   addition = String(addition);
